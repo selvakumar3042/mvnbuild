@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
--<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
 
 <modelVersion>4.0.0</modelVersion>
 
@@ -17,13 +17,7 @@
 <description>Simplest possible Java Webapp</description>
 
 
--<build>
-
-
--<plugins>
-
-
--<plugin>
+<plugin>
 
 <groupId>org.selva.selva</groupId>
 
@@ -32,7 +26,7 @@
 <version>8.1.5.v20120716</version>
 
 
--<configuration>
+<configuration>
 
 <scanIntervalSeconds>0</scanIntervalSeconds>
 
@@ -41,7 +35,7 @@
 </plugin>
 
 
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
